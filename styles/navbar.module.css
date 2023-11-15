@@ -1,0 +1,40 @@
+.labelColor{
+    color: white !important;
+    text-decoration: none;
+   box-shadow: none !important;
+    
+}
+
+.labelColor:hover{
+    
+    border-bottom: 2px solid white;
+
+}
+
+.heart:hover{
+    box-shadow: 2px 2px 30px white !important;
+    cursor: pointer;
+}
+
+.scroll_indicator{
+   
+    height: 2px;
+    background: white !important
+}
+
+.input_box{
+    border-color: white !important;
+    box-shadow: 1px 1px 20px black !important;
+    outline: none !important;
+    z-index: 0 !important;
+}
+
+.input_box::placeholder{
+    color: white;
+}
+
+.mobile_menu:hover{
+    
+    border-bottom: 2px solid white;
+
+}
