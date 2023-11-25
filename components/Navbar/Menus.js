@@ -53,8 +53,8 @@ const Menus = () => {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay />
-        <DrawerContent bgGradient="linear(to-tl, #232526,gray.400)">
-          <DrawerCloseButton />
+        <DrawerContent bgGradient="linear(to-tl, #232526,gray.900)">
+          <DrawerCloseButton color={'white'}/>
 
           <DrawerBody mt={1}>
             <Box>
@@ -80,6 +80,7 @@ const Menus = () => {
                     to={item.id}
                     spy={true}
                     smooth={true}
+                    offset={-120}
                     duration={500}
                     style={{ textDecoration: "none", fontWeight: "bold",cursor:'pointer',color:'white' }}
                     onClick={handleLinkClick}

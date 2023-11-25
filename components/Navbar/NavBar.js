@@ -10,11 +10,12 @@ const Header = () => {
     <Box
       position={"fixed"}
       top={0}
-      zIndex={100}
+      zIndex={1000}
       width={"100%"}
-      boxShadow="2px 2px 21px white"
-      bgGradient="linear(to-tb, #5d4157,#a8caba)"
-      style={{ backdropFilter: "blur(90px)" }}
+      boxShadow="0px 1px 17px white"
+      // bgGradient="linear(to-tb, #5d4157,#a8caba)"
+      // style={{ backdropFilter: "blur(200px)" }}
+      bg={'#222426'}
     >
       <SimpleGrid maxW="100vw" mx={10}>
         <Flex
@@ -51,7 +52,7 @@ const Header = () => {
                     to={item.id}
                     spy={true}
                     smooth={true}
-                    // offset={-70} // Adjust this offset based on your header height
+                    offset={-100} // Adjust this offset based on your header height
                     duration={500}
                     className={style.labelColor}
                     style={{ textDecoration: "none",cursor:'pointer' }}

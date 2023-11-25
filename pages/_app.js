@@ -59,7 +59,7 @@ export default function App({ Component, pageProps }) {
         <ToastContainer />
         <Whatsapp />
         <Main />
-        <Box bgGradient='linear(to-b, #232526,gray.400)' >
+        <Box bgGradient='linear(to-b, #232526,gray.900)' >
         <Component {...pageProps} />
         </Box> 
       </ChakraProvider>
