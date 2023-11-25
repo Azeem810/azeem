@@ -123,6 +123,7 @@ export default function LargeWithLogoCentered() {
         fontSize={{ base: "24px", md: "33px" }}
         mb={8}
         id="contact"
+        color={'white'}
       >
         Contact Me
       </Heading>
@@ -141,6 +142,8 @@ export default function LargeWithLogoCentered() {
             onChange={(e) => handleEmail(e, "name")}
             mb={3}
             value={name}
+            color={'white'}
+
           />
           <Input
             type="email"
@@ -152,6 +155,8 @@ export default function LargeWithLogoCentered() {
             onChange={(e) => handleEmail(e, "email")}
             mb={3}
             value={email}
+            color={'white'}
+
           />
           <Textarea
             rows="4"
@@ -164,11 +169,12 @@ export default function LargeWithLogoCentered() {
             onChange={(e) => handleEmail(e, "textarea")}
             mb={3}
             value={message}
+            color={'white'}
           />
           <Button
             type="submit"
             width={"100%"}
-            bg={"#86919f"}
+           
             border={"1px solid white"}
             _hover={{ background: "white", boxShadow: "0px 0px 10px white" }}
             boxShadow="2px 2px 30px black"
@@ -217,6 +223,7 @@ export default function LargeWithLogoCentered() {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-100}
               style={{
                 textDecoration: "none",
                 fontFamily: "Poppins, sans-serif",
