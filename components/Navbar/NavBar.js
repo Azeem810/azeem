@@ -17,7 +17,7 @@ const Header = () => {
       // style={{ backdropFilter: "blur(200px)" }}
       bg={'#222426'}
     >
-      <SimpleGrid maxW="100vw" mx={10}>
+      <SimpleGrid maxW="100vw" mx={[1,1,2,5]}>
         <Flex
           justifyContent={{ base: "space-between" }}
           alignItems={"center"}
