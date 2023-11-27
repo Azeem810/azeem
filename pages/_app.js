@@ -20,7 +20,27 @@ export default function App({ Component, pageProps }) {
         
         <meta
           name="description"
-          content="Hi I am Azeem, a 24 year old Web Developer and living in Delhi,
+          content="Hi I am Azeem, a Web Developer and living in Delhi,
+          India. I have a background in Computer Science engineering,
+          currently working with awesome folks at Quixgo Infotech Pvt. Ltd.
+          As a React Js developer, I enjoy crafting and implementing
+          intricate code to bring ideas to life and create smooth online
+          experiences."
+        />
+
+<meta
+          name="description"
+          content="Hi I am Azeem, a Web Developer and from Bareilly,
+          India. I have a background in Computer Science engineering,
+          currently working with awesome folks at Quixgo Infotech Pvt. Ltd.
+          As a React Js developer, I enjoy crafting and implementing
+          intricate code to bring ideas to life and create smooth online
+          experiences."
+        />
+
+<meta
+          name="description"
+          content="Hi I am Azeem, a Web Developer and from Noida,
           India. I have a background in Computer Science engineering,
           currently working with awesome folks at Quixgo Infotech Pvt. Ltd.
           As a React Js developer, I enjoy crafting and implementing
