@@ -16,7 +16,9 @@ export default function App({ Component, pageProps }) {
          I am Azeem a React js Developer.
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href={"images/loog.png" ?? ''} />
+        {/* <link rel="shortcut icon" href={"images/loog.png" ?? ''} /> */}
+        <link rel="icon" href="images/loog.png" type="image/png" />
+
         
         <meta
           name="description"
