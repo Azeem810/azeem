@@ -2,9 +2,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/globals.css";
 import dynamic from "next/dynamic";
-const Main = dynamic(() => import("../components/Navbar/Main"));
+const Main = dynamic(()=> import('../components/Navbar/Main'))
 import { Box, ChakraProvider } from "@chakra-ui/react";
-const Whatsapp = dynamic(() => import("../components/WhatsappApi/Whatsapp"));
+const Whatsapp = dynamic(()=> import("../components/WhatsappApi/Whatsapp")) ;
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Head from "next/head";
@@ -12,10 +12,14 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>I am Azeem a React js Developer.</title>
+        <title>
+         I am Azeem a React js Developer.
+        </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <link rel="shortcut icon" href={"images/loog.png" ?? ''} /> */}
         <link rel="icon" href="images/loog.png" type="image/png" />
 
+        
         <meta
           name="description"
           content="Hi I am Azeem, a Web Developer and living in Delhi,
@@ -26,7 +30,7 @@ export default function App({ Component, pageProps }) {
           experiences."
         />
 
-        <meta
+<meta
           name="description"
           content="Hi I am Azeem, a Web Developer and from Bareilly,
           India. I have a background in Computer Science engineering,
@@ -36,7 +40,7 @@ export default function App({ Component, pageProps }) {
           experiences."
         />
 
-        <meta
+<meta
           name="description"
           content="Hi I am Azeem, a Web Developer and from Noida,
           India. I have a background in Computer Science engineering,
@@ -64,22 +68,22 @@ export default function App({ Component, pageProps }) {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days" />
 
-        <meta property="og:title" content="Azeem a React js Developer"></meta>
+        <meta
+          property="og:title"
+          content="Azeem a React js Developer"
+        ></meta>
         <meta property="og:locale" content="en_US"></meta>
         <meta property="og:type" content="website"></meta>
-        <meta
-          name="google-site-verification"
-          content="zpjKSaYfi7oXmYuzGKM_kKkjy8lZCCSDXAQ0c1KBeUQ"
-        />
+        <meta name="google-site-verification" content="zpjKSaYfi7oXmYuzGKM_kKkjy8lZCCSDXAQ0c1KBeUQ" />
       </Head>
 
       <ChakraProvider>
         <ToastContainer />
         <Whatsapp />
         <Main />
-        <Box bgGradient="linear(to-b, #232526,gray.900)">
-          <Component {...pageProps} />
-        </Box>
+        <Box bgGradient='linear(to-b, #232526,gray.900)' >
+        <Component {...pageProps} />
+        </Box> 
       </ChakraProvider>
     </>
   );
