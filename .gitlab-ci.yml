@@ -1,0 +1,6 @@
+include: 
+ -  project: mahtab-quixgo/cicd-template
+    file:
+      - quixgo-next/dev.gitlab-ci.yml
+      - quixgo-next/stag.gitlab-ci.yml
+      - quixgo-next/prod.gitlab-ci.yml

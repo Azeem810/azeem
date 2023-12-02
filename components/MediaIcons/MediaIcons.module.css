@@ -1,0 +1,49 @@
+.media_icons{
+    left: 0;
+    top: 35%;
+    transform: translateY(0,-50%);
+    position: fixed;
+    z-index: 100;
+   }
+   
+   .media_icons ul{
+       padding: initial;  
+   }
+   
+   .media_icons ul li{
+       height: 30px;
+       width: 30px;
+       list-style-type: none;
+       padding-left: 7px;
+       padding-top: 7px;
+       margin-top: 8px;
+       /* background: #000; */
+       color: white;
+       border-radius: 8px;
+      
+   }
+   
+   .media_icons ul li:hover{
+       padding-left: 30px;
+       width: 70px;
+       transition: 0.6s  ;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      box-shadow: 2px 2px 30px black;
+   
+   
+   }
+   
+   .facebook{
+       background: #3b5998;
+   }
+   .twitter{
+       background: #55acee;
+   }
+   .linkedin{
+       background: #007bb5;
+   }
+   .instagram{
+       background: #ff4800;
+   }
+   
