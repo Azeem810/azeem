@@ -71,8 +71,7 @@ export default function LargeWithLogoCentered() {
 
   };
   return (
-    <>
-
+ 
     <Box bg={"#00004a"} color={"white"}>
       <Container as={Stack} maxW={"6xl"} py={10}>
         <SimpleGrid columns={{ base: 2, sm: 2, md: 4 }} spacing={8}>
@@ -175,7 +174,7 @@ export default function LargeWithLogoCentered() {
         </Text>
       </Box>
     </Box>
-    </>
+  
   );
 }
 
