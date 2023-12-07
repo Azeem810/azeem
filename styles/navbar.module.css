@@ -1,10 +1,15 @@
 .labelColor{
+<<<<<<< HEAD
     color: white !important;
+=======
+    color:white !important;
+>>>>>>> 41cebc7c852b53c23d613b4e6bc31e0a005f6233
     text-decoration: none;
    box-shadow: none !important;
     
 }
 
+<<<<<<< HEAD
 .labelColor:hover{
     
     border-bottom: 2px solid white;
@@ -38,3 +43,5 @@
     border-bottom: 2px solid white;
 
 }
+=======
+>>>>>>> 41cebc7c852b53c23d613b4e6bc31e0a005f6233
