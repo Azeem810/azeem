@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "azeemportfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,31 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
-=======
-  "name": "quixgoapp",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "env-cmd -f .env.dev next dev",
-    "build:dev": "env-cmd -f .env.dev next build",
-    "build:stag": "env-cmd -f .env.stag next build",
-    "build:prod": "env-cmd -f .env.prod next build",
-    "start:dev": "env-cmd -f .env.dev next start",
-    "start:stag": "env-cmd -f .env.stag next start",
-    "start:prod": "env-cmd -f .env.prod next start",
-    "start:server": "NODE_ENV=production node server.js",
-    "lint": "next lint"
-  },
-
->>>>>>> 41cebc7c852b53c23d613b4e6bc31e0a005f6233
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
     "@chakra-ui/next-js": "^2.1.5",
     "@chakra-ui/react": "^2.8.1",
-<<<<<<< HEAD
     "@emailjs/browser": "^3.11.0",
-=======
->>>>>>> 41cebc7c852b53c23d613b4e6bc31e0a005f6233
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@googlemaps/js-api-loader": "^1.15.1",
@@ -50,19 +29,12 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.41.5",
     "react-icons": "^4.7.1",
-<<<<<<< HEAD
     "react-scroll": "^1.9.0",
     "react-slick": "^0.29.0",
     "react-toastify": "^9.1.1",
     "sharp": "^0.31.3",
     "slick-carousel": "^1.8.1",
     "typed.js": "^2.1.0"
-=======
-    "react-slick": "^0.29.0",
-    "react-toastify": "^9.1.1",
-    "sharp": "^0.31.3",
-    "slick-carousel": "^1.8.1"
->>>>>>> 41cebc7c852b53c23d613b4e6bc31e0a005f6233
   },
   "devDependencies": {
     "sass": "^1.57.1"
